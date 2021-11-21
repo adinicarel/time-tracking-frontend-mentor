@@ -1,6 +1,6 @@
 addEventListener('load', function(event){
     async function getTimeframes() {
-        let url = '../data.json';
+        let url = './data.json';
         try {
             let res = await fetch(url);
             return await res.json();
