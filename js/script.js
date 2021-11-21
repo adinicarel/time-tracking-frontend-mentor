@@ -31,7 +31,7 @@ addEventListener('load', function(event){
                 <div class="card">
                     <div>
                         <span>${title}</span>
-                        <span><img src="./images/icon-ellipsis.svg" alt="dots-icon"></span>
+                        <span style="line-height:14px"><img src="./images/icon-ellipsis.svg" alt="dots-icon"></span>
                     </div>
                     <div class="hours-current">${today}hrs</div>
                     <div class="hours-prev">Yesterday - ${yesterday}hrs</div>
@@ -60,7 +60,7 @@ addEventListener('load', function(event){
                 <div class="card">
                     <div>
                         <span>${title}</span>
-                        <span style="line-height:14px"><img src="/images/icon-ellipsis.svg" alt="dots-icon"></span>
+                        <span style="line-height:14px"><img src="./images/icon-ellipsis.svg" alt="dots-icon"></span>
                     </div>
                     <div class="hours-current">${currentWeek}hrs</div>
                     <div class="hours-prev">Last week - ${previousWeek}hrs</div>
@@ -88,7 +88,7 @@ addEventListener('load', function(event){
                 <div class="card">
                     <div>
                         <span>${title}</span>
-                        <span><img src="/images/icon-ellipsis.svg" alt="dots-icon"></span>
+                        <span style="line-height:14px"><img src="./images/icon-ellipsis.svg" alt="dots-icon"></span>
                     </div>
                     <div class="hours-current">${currentMonth}hrs</div>
                     <div class="hours-prev">Last month - ${previousMonth}hrs</div>
