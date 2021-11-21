@@ -31,7 +31,7 @@ addEventListener('load', function(event){
                 <div class="card">
                     <div>
                         <span>${title}</span>
-                        <span><img src="/images/icon-ellipsis.svg" alt="dots-icon"></span>
+                        <span><img src="./images/icon-ellipsis.svg" alt="dots-icon"></span>
                     </div>
                     <div class="hours-current">${today}hrs</div>
                     <div class="hours-prev">Yesterday - ${yesterday}hrs</div>
